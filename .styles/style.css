@@ -1,0 +1,143 @@
+/* styles for notes */
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url(fonts/UbuntuMono-R.ttf);
+    font-weight:400;
+}
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(fonts/segoeui.ttf);
+    font-weight:400;
+}
+
+body {
+	font-family: 'Segoe UI';
+	font-size: 13px;
+	background-color: #bbb;
+	line-height: 19px;
+}
+
+img {
+	max-height: 150px;
+	border: 3px solid #bbb;
+	margin: 10px;
+}
+
+table {
+	border: 1px solid #666;
+	border-collapse: collapse;
+	width: 99%;
+	margin: 0 auto;
+}
+
+table, th, td {
+	background-color: #FFF;
+	border: 1px solid #666;
+	padding: 3px;
+}
+
+#wrapper {
+	width: 650px;
+	margin: 0 auto; 
+	box-shadow: 0px 0px 6px 2px #666;
+	padding: 25px;
+	background-color: #fff;
+	text-align: justify;
+}
+
+.title {
+	font-size: 19px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	background: #bbb;
+	color: #293F70;
+}
+
+.date {
+	font-weight: normal;
+	text-align: center;
+	background: #ccc;
+	border-top: 1px solid #666;
+	margin: 15px 0 5px 0;
+	padding: 2px;
+}
+
+a:link, a:active, a:visited {
+	color: #293F70;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #9D302D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #325489;
+	font-weight: normal;
+	margin: 17px 0 4px 0;
+}
+
+h1 {
+	font-size: 21px;
+}
+
+h2 {
+	font-size: 19px;
+}
+
+h3 {
+	font-size: 17px;
+}
+
+h4 {
+	font-size: 15px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h6 {
+	font-size: 13px;
+}
+
+ul {
+	margin: 0 0 10px 0;
+	list-style-type: square;
+	padding-left: 20px;
+}
+ul ul, ol ol {
+	padding-left: 30px;
+}
+
+ol {
+	margin: 0 0 10px 0;
+	list-style-type: decimal;
+	padding-left: 20px;
+}
+
+pre {
+	font-family: 'Ubuntu Mono';
+	border: 1px solid #888;
+	background-color: #eee;
+	padding: 2px 5px 2px 5px;
+	margin: 4px
+}
+
+code {
+	font-family: 'Ubuntu Mono';
+	background-color: #eee;
+	border: 1px solid #aaa;
+	border-radius: 2px;
+}
+
+.note {
+	color: #343434;
+	border-left: 3px solid #999;
+	padding-left: 10px;
+	margin-left: 5px;
+	line-height: 12px;
+	font-size: 12px;
+}
